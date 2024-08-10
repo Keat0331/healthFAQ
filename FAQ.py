@@ -42,7 +42,7 @@ def main():
 
     if submit_button:
         if user_input:
-            answer = find_best_answer(user_input, df)
+            answer = find_best_answer(user_input)
             st.write(answer)
         else:
             st.warning("Please enter a question.")
